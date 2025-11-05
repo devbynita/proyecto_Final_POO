@@ -1,5 +1,7 @@
 package org.example.usuario;
 
+import org.example.producto.Producto;
+
 public class DesarrolladorProducto extends Usuario {
     private String especialidad;
     public DesarrolladorProducto(int id, String nombre, String email, String password, String especialidad) {
@@ -14,9 +16,9 @@ public class DesarrolladorProducto extends Usuario {
     public void setEspecialidad(String especialidad) {
         this.especialidad = especialidad;
     }
-    public void desarrollarProducto(String nombreProducto, String faseDesarrollo) {
+    public void desarrollarProducto(Producto p, String faseDesarrollo) {
         System.out.println(" El desarrollador " + getNombre() +
-                " está desarrollando el producto: " + nombreProducto +
+                " está desarrollando el producto: " + p +
                         " | Fase: " + faseDesarrollo +
                         " | Especialidad: " + especialidad);
 

@@ -54,5 +54,18 @@ public class Fabrica {
     public void empezarJornada(){
         System.out.println("La fabrica en " + ciudad+" ,"+pais+" ha comenzado su jornada" );
     }
-    public void
+    public void terminarJornada(){
+        System.out.println("La fabrica en "+ciudad+" ,"+pais+" ha terminado su jornada" );
+    }
+
+    @Override
+    public String toString() {
+        return "Fabrica{" +
+                "id=" + id +
+                ", pais='" + pais + '\'' +
+                ", ciudad='" + ciudad + '\'' +
+                ", capacidad=" + capacidad +
+                ", nivelAutomatizacion=" + nivelAutomatizacion +
+                '}';
+    }
 }
