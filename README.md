@@ -38,8 +38,5 @@ Cada acción modifica los objetos en memoria (por ejemplo, se actualiza el carri
 El programa ejecuta una simulación completa de una tienda virtual,  
 donde se combinan *herencia, **composición, **asociaciones entre clases*  
 y un *menú modular* que permite interactuar con todas las entidades del sistema desde la consola.
-El programa ejecuta una simulación completa de una tienda virtual,  
-donde se combinan *herencia, **composición, **asociaciones entre clases*  
-y un *menú modular* que permite interactuar con todas las entidades del sistema desde la consola
 
 eso es todo :) <3
