@@ -36,7 +36,7 @@ public class Carrito {
                 return;
             }
         }
-            lineas.add(new LineaCarrito(cantidad,0,producto));
+        lineas.add(new LineaCarrito(cantidad, producto.getPrecio() * cantidad, producto));
         }
         public void quitarProducto(Producto producto) {
         if (producto == null) return ;

@@ -74,4 +74,8 @@ public class Cliente extends Usuario {
                 ", pagoRealizado=" + pagoRealizado +
                 '}';
     }
+
+    public Carrito getCarrito() {
+        return carrito;
+    }
 }

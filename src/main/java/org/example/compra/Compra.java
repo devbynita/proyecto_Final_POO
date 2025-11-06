@@ -13,7 +13,7 @@ public class Compra {
     private int total;
     private EstadoCompra estado;
     private List<LineaCompra> compras;
-    public void Compra ( int id){
+    public  Compra ( int id){
         this.id=id;
         this.fecha=LocalDate.now();
         this.total=0;
@@ -77,7 +77,7 @@ public class Compra {
     }
 
     @Override
-    public String toString() {
+    public String   toString() {
         return "Compra{" +
                 "id=" + id +
                 ", fecha=" + fecha +

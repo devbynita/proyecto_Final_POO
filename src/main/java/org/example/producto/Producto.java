@@ -1,5 +1,6 @@
 package org.example.producto;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Producto {
@@ -74,4 +75,5 @@ public class Producto {
     public boolean estaDisponible() {
         return stock > 0;
     }
+
 }
